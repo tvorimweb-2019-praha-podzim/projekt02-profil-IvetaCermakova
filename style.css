@@ -17,3 +17,102 @@ html { box-sizing: border-box; }
 body {
     background-color: #bdc3c7;
 }
+
+.profil{
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #31363b;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:  #bdc3c7;
+    text-align: left;
+    box-shadow: 2px 4px 10px black;
+}
+
+.foto{
+    width: 250px;
+    height: auto;
+    padding: 0;
+}
+
+.logo{
+    background-color: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    top: 160px;
+    left: 205px;
+    
+}
+.obsah {
+    padding: 20px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.jmeno {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #bdc3c7;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    border-spacing: 0;
+}
+
+.portfolio{
+    padding: 0px;
+    padding-top: 10px;
+    width: 250px;
+    height: 45px;
+    text-align: center;
+    border-top: 1px solid #bdc3c7;
+}
+
+.portfolio:hover{
+    background-color:#e74c3c;
+}
+
+.facebook{
+    padding: 0;
+    padding-top: 10px;
+    margin-right: -2px;
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    border-top: thin solid #bdc3c7;
+}
+
+.facebook:hover{
+    background-color: #3b5998;
+}
+
+.twitter{
+    padding: 0;
+    padding-top: 10px;
+    margin-left: -2px;
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    border-top: thin solid #bdc3c7;
+    float: right;
+}
+
+.twitter:hover{
+    background-color: #1da1f2;    
+}
